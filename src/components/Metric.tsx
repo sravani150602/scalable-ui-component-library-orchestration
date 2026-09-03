@@ -1,0 +1,1 @@
+export function Metric({label,value,delta}:{label:string;value:string;delta?:string}){return <article className="metric"><span>{label}</span><strong>{value}</strong>{delta&&<small>{delta}</small>}</article>}
