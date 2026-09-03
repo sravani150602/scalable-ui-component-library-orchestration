@@ -1,0 +1,1 @@
+import{FeaturePanel}from"../shared/FeaturePanel";export default function Analytics(){return <FeaturePanel feature={{id:"analytics",label:"Analytics",description:"Metrics and normalized reporting surfaces.",accent:"#0891b2"}}/>}
