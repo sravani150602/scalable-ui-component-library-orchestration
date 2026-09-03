@@ -1,0 +1,1 @@
+import{FeaturePanel}from"../shared/FeaturePanel";export default function Settings(){return <FeaturePanel feature={{id:"settings",label:"Settings",description:"Shared configuration and access controls.",accent:"#475569"}}/>}
