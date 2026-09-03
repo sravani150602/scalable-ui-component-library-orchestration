@@ -1,0 +1,11 @@
+services:
+  ui:
+    build: .
+    ports: ["8080:80"]
+    depends_on: [api]
+  api:
+    image: node:22-alpine
+    working_dir: /app
+    volumes: [".:/app"]
+    command: sh -c "npm ci && npm run server"
+    ports: ["3001:3001"]
