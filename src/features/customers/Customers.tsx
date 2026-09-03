@@ -1,0 +1,1 @@
+import{FeaturePanel}from"../shared/FeaturePanel";export default function Customers(){return <FeaturePanel feature={{id:"customers",label:"Customers",description:"Typed customer lists and lifecycle state.",accent:"#16a34a"}}/>}
