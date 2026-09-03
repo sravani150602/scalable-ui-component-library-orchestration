@@ -1,0 +1,1 @@
+import{FeaturePanel}from"../shared/FeaturePanel";export default function Workflows(){return <FeaturePanel feature={{id:"workflows",label:"Workflows",description:"Operational orchestration and status tracking.",accent:"#ea580c"}}/>}
