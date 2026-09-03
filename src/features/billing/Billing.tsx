@@ -1,0 +1,1 @@
+import{FeaturePanel}from"../shared/FeaturePanel";export default function Billing(){return <FeaturePanel feature={{id:"billing",label:"Billing",description:"Invoice and account orchestration views.",accent:"#dc2626"}}/>}
