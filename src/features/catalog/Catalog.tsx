@@ -1,0 +1,1 @@
+import{FeaturePanel}from"../shared/FeaturePanel";export default function Catalog(){return <FeaturePanel feature={{id:"catalog",label:"Catalog",description:"Reusable product discovery and inventory views.",accent:"#7c3aed"}}/>}
